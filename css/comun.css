@@ -1,0 +1,43 @@
+
+#menu {
+    width: 10%;
+    height: 100%;
+    background-color: lightgray;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  
+  #menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu li {
+    font-size: xx-large;
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  #menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    display: block;
+  }
+  #texto{
+    display: inline-block;
+    vertical-align: top;
+  }
+  #img_head {
+    width: 10%;
+  }
+
+  #img_body {
+    width: 90%;
+  }
+
+  head {background-color: #648690;}
+  img {width: 10%;}
+  body {background-color: #a3ccd8;}
