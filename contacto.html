@@ -1,20 +1,18 @@
 <!DOCTYPE >
 
 <head>
-    <title>Lorem Ipsum!</title>
-    <link rel="stylesheet" type="text/css" href="css/comun.css">
-    <link rel="stylesheet" type="text/css" href="css/body_contacto.css">
-
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <div style="text-align: center;">
-        <a href="index.html">
-            <img id ="img_head" src="imagenes/img_head.png" vspace="5" style="float: center;" />
-        </a>
-        <p id= "texto" style="font-size: 40px;">El interesante mundo del Lorem ipsum!</p>
-       
+    <div id="head-div">
+        <title>Lorem Ipsum!</title>
+        <link rel="stylesheet" type="text/css" href="css/comun.css">
+        <link rel="stylesheet" type="text/css" href="css/body_contacto.css">
+   
+        <div style="text-align: center;">
+            <a href="index.html">
+                <img id ="img_head" src="imagenes/img_head.png" vspace="5" style="float: center;" />
+            </a>
+            <p id= "texto" style="font-size: 40px;">El interesante mundo del Lorem ipsum!</p>
+           
+        </div> 
     </div>
 
     
@@ -22,15 +20,25 @@
 </head>
 
 
-<body style="margin: 0% 4% 4% 13%">
+<body>
     
 
     <div id="menu">
         <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="more_info_page.html">Saber mas!</a></li>
-        <li><a href="data.html">Estadisticas</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="index.html">Inicio</a></li>
+        </ul>
+        <ul>
+            <li><a href="more_info_page.html">Saber mas!</a></li>
+        </ul>
+        <ul>
+            <li><a href="data.html">Estadisticas</a></li>
+        </ul>
+        <ul>
+            <li><a href="quote.html">A quote</a></li>
+        </ul>
+        <ul>
+            <li><a href="contacto.html">Contacto</a></li>
+            
         </ul>
     </div>
 
@@ -47,6 +55,9 @@
 
                 <label for="fname"  style="font-size: 150%" >Nombre completo:</label>
                 <input type="text" id="fname" name="fname"  required><br><br>
+
+                <label for="fname"  style="font-size: 150%" >Telefono:</label>
+                <input type="tel" id="fname" name="Telefono" pattern="[0-9()+-]*" required><br><br>
 
 
                 <label for="lname"style="font-size: 150%">Correo Electronico:</label>
@@ -67,6 +78,10 @@
                 <label for="identification"style="font-size: 150%">Nº Identification:</label>
                 <input type="text" id="identification" name="identification" required></input><br><br> 
 
+                <div class="section_button">
+                    <button onclick="alert('los servidores estan al completo en estos momentos, intentelo mas tarde.')" type="submit" style="font-size: 150%">Enviar</button>
+                </div>
+
             </form> 
         </div>
 
@@ -76,9 +91,7 @@
 
     </div>
 
-    <div class="section_button">
-        <button onclick="alert('los servidores estan al completo en estos momentos, intentelo mas tarde.')" type="submit" style="font-size: 150%">Enviar</button>
-    </div>
+   
     
 
 </body>
